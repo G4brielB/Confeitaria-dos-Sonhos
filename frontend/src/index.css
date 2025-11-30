@@ -1,3 +1,48 @@
 @import "tailwindcss";
 
+/* Animação de fade-in */
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-fade-in {
+  animation: fade-in 1s ease forwards;
+}
+
+/* Animação slide-up */
+@keyframes slide-up {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-slide-up {
+  animation: slide-up 1s ease forwards;
+}
+.delay-150 { animation-delay: .15s; }
+.delay-300 { animation-delay: .3s; }
+
+/* Botão bounce suave */
+@keyframes bounce-slow {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+}
+.animate-bounce-slow {
+  animation: bounce-slow 2.5s infinite ease-in-out;
+}
+
+/* Decoração flutuante */
+@keyframes floating-slow {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+.animate-floating-slow {
+  animation: floating-slow 4s infinite ease-in-out;
+}
+
+@keyframes floating-slower {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
+}
+.animate-floating-slower {
+  animation: floating-slower 6s infinite ease-in-out;
+}
 
