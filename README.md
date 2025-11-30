@@ -46,7 +46,7 @@ No momento, a autenticação funciona da seguinte forma:
  O frontend faz uma requisição GET que retorna todos os usuários cadastrados.
  Após isso, um find() é usado para localizar o usuário desejado.
 
- Este método <span style="color:red;">NÃO</span> é seguro e style="color:red;">NÃO</span> deve ser utilizado em produção.
+ Este método <p style="color:red;">NÃO</p> é seguro e <p style="color:red;">NÃO</p> deve ser utilizado em produção.
 Ele será futuramente corrigido e substituído por um fluxo de autenticação seguro (JWT, bcrypt, etc.).
 
 <h2>Como Rodar o Projeto Localmente</h2>
